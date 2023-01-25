@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    
+    <title>César Manuel Varela García</title>
+    
+</head>
+<body>
+    <div class="carpetas">
+        <div class="carpeta1">
+            <button class="binder" onclick="window.modal.showModal();"><img class="carpeta" src="styles/img/escritorio/carpeta.png" alt="binder" loading="lazy"><br>about</button>
+                <dialog id="modal">
+                <button onclick="window.modal.close();">X</button><br>
+                <button onclick="window.modal11.showModal();"><img class="documento" src="styles/img/carpetas/documento.png" alt="document" loading="lazy"></button>
+                <dialog id="modal11">
+                    <button onclick="window.modal11.close(),modal.close();;">X</button><br>
+                    <p class="aboutm" id="aboutm">I´m a web developer (specialized in front-end). 
+                    I´m begining my travel in this world where i try to upgrade my skills daily. I try yto learn from everyone who likes any segment of this world,
+                    from a graphic designer to a back-end developer, because i think everyone has something to bring me.
+                    I am calm and rational person, tenacious and almost obsessed with deadlines, i have a great capacity for work team and leadership.
+                    Nice to meet you and looking forward to talking with you.</p>
+                </dialog>
+            </dialog>
+        </div>
+    
+        <div class="carpeta2">
+            <button class="binder" onclick="window.modal2.showModal();"><img class="carpeta" src="styles/img/escritorio/carpeta.png" alt="binder" loading="lazy"><br>skills</button>
+            <dialog id="modal2">
+            <button onclick="window.modal2.close();">X</button><br>
+            <button onclick="window.modal21.showModal();">
+            <img class="documento" src="styles/img/carpetas/documento.png" alt="document" loading="lazy"></button>
+                <dialog id="modal21">
+                <button onclick="window.modal21.close(),modal2.close();;">X</button><br>
+                <p class="skills">
+                    My skills:
+                    <ul class="skill">
+                        <ul class="langu">
+                            <p>LANGUAGES:</p>
+                            <li><img class="lang" src="styles/img/carpetas/skills/HTML5.png" alt="HTML">html</li>
+                            <li><img class="lang" src="styles/img/carpetas/skills/css3.png" alt="CSS">css</li>
+                            <li><img class="lang" src="styles/img/carpetas/skills/js.png" alt="JS">javascript</li>
+                            <li><img class="lang" src="styles/img/carpetas/skills/angular.png" alt="ANGULAR">angular</li>
+                        </ul>
+                        <ul class="tech">
+                            <p>TECH:</p>
+                            <li><img class="lang" src="styles/img/carpetas/skills/github.png" alt="GIT">github</li>
+                            <li><img class="lang" src="styles/img/carpetas/skills/mysql.png" alt="SQL">Mysql</li>
+                            <li><img class="lang" src="styles/img/carpetas/skills/node.png" alt="NODE">Nodejs</li>
+                        </ul>
+                        <ul class="programs">
+                            <p>PROGRAMS:</p>
+                            <li><img class="lang" src="styles/img/carpetas/skills/blender.png" alt="BLENDER">blender</li>
+                            <li><img class="lang" src="styles/img/carpetas/skills/inkscape.png" alt="INKSCAPE">inkscape</li>
+                            <li><img class="lang" src="styles/img/carpetas/skills/Photoshop.png" alt="PS">ps</li>
+                        </ul>
+                    </ul>
+                </p>
+                </dialog>
+            </dialog>
+        </div>
+    
+        <div class="carpeta3">
+            <button class="binder" onclick="window.modal3.showModal();"><img class="carpeta" src="styles/img/escritorio/carpeta.png" alt="binder" loading="lazy"><br>soft skills</button>
+            <dialog id="modal3">
+            <button onclick="window.modal3.close();">X</button><br>
+            <button onclick="window.modal31.showModal();"><img class="documento" src="styles/img/carpetas/documento.png" alt="document" loading="lazy"><br>soft skills</button>
+                <dialog id="modal31">
+                <button onclick="window.modal31.close(),modal3.close();;">X</button><br>
+                <p class="softskills">soft skills</p>
+                </dialog>
+            </dialog>
+        </div>
+    
+        <div class="carpeta4">
+            <button class="binder" onclick="window.modal4.showModal();"><img class="carpeta" src="styles/img/escritorio/carpeta.png" alt="binder" loading="lazy"><br>projects</button>
+            <dialog id="modal4">
+            <button onclick="window.modal4.close()">X</button><br>
+            <div class="proj">
+                <a href="https://cmvgg.github.io/currency/" class="mon" target="_blank">
+                    <img class="moneda" src="styles/img/carpetas/moneda.png" loading:lazy>
+                </a>
+        
+                <a href="https://github.com/cmvgg/currency" class="codmone" target="_blank">
+                    <img class="code" src="styles/img/carpetas/codigo.png" loading:lazy>
+                </a>
+        
+                <a href="https://cmvgg.github.io/portfolio1/" class="port" target="_blank">
+                    <img class="portfo" src="styles/img/carpetas/portfolio.png" loading:lazy>
+                </a>
+        
+                <a href="https://github.com/cmvgg/portfolio1" class="codport " target="_blank">
+                    <img class="code" src="styles/img/carpetas/codigo.png" loading:lazy>
+                </a>
+            </div>
+            </dialog>
+        </div>
+
+        <div class="carpeta5">
+            <button class="binder" onclick="window.modal5.showModal();"><img class="carpeta" src="styles/img/escritorio/carpeta.png" alt="binder" loading="lazy"><br>contact</button>
+            <dialog id="modal5">
+            <button onclick="window.modal5.close();">X</button><br>
+                <button class="email" onclick="window.modal51.showModal();">
+                    <img class="mail" src="styles/img/carpetas/contacto.png" alt="binder" loading="lazy"></button>
+                <dialog id="modal51">
+                <button onclick="window.modal51.close(),modal5.close();">X</button><br>
+                <form class="formular" method='POST' action='/php/form.php'>
+                <div class="formu1">
+                    <label class="nombre" for="nombre">Name</label>
+                    <input type="text" class="form-control" name='nombre' id="nombre" placeholder="name...">
+                </div>
+                <div class="formu">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" name='email' id="email" placeholder="email...">
+                </div>
+                <div class="formu">
+                    <label for="exampleTextarea">message</label>
+                    <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
+                </div>
+                <div class="formu">
+                    <input type="checkbox" required> Acepto la política de privacidad.
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+            </dialog>
+        </dialog>
+        </div>
+    </div>
+    
+    <div id="barra">
+        <div class="toggle-btn">
+            <p class="mylogo"><img class="mylog" src="styles/img/barra/LOGO1.png" alt="my logo"></p>
+        </div>
+
+        <p class="nombre">César Manuel Varela García </p>
+        <ul class="selector">
+            <li><button class="aboutme" onclick="window.modal.showModal(),modal11.showModal();">about me</button></li>
+            <li><button class="sskill" onclick="window.modal2.showModal(),modal21.showModal();">skills</button></li>
+            <li><button class="skillsoft" onclick="window.modal3.showModal(),modal31.showModal();">soft skills</button></li>
+            <li><button class="pproject" onclick="window.modal5.showModal(),modal51.showModal();">projects</button></li>
+        </ul>
+        
+        <a class="linkedin" href="http://www.linkedin.com/in/cmvgg" target="_blank" rel=" noopener noreferrer">
+            <img class="linked" src="styles/img/barra/linkedin.png" loading:"lazy"></a>
+
+        <a class="gith" href="https://github.com/cmvgg"  target="_blank" rel=" noopener noreferrer">
+            <img class="githu" src="styles/img/barra/github.png" loading:"lazy"></a>
+    </div>
+    
+
+<script src="js/script.js"></script>
+</body>
+</html>

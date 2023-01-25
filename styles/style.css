@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.carpetas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.carpetas > div {
+  flex: 1 1 2rem;
+}
+
+.carpeta {
+  width: 70px;
+}
+
+.binder {
+  border: none;
+  background-color: transparent;
+}
+
+.documento {
+  width: 50px;
+  border: none;
+  background-color: transparent;
+}
+
+.mail {
+  width: 50px;
+}
+
+.email {
+  border: none;
+  background-color: transparent;
+}
+
+#modal51 dialog {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.formular {
+  text-align: center;
+  align-items: center;
+}
+
+.lang {
+  width: 50px;
+}
+
+#barra {
+  position: fixed;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 2px;
+  background-color: gray;
+  bottom: -24rem;
+}
+
+#barra ul li {
+  text-align: center;
+  padding: 15px 10px;
+  list-style: none;
+}
+
+#barra .toggle-btn {
+  position: fixed;
+  height: 0.2em;
+  bottom: 5rem;
+  margin-left: -4rem;
+  cursor: pointer;
+}
+
+.mylog {
+  height: 8rem;
+}
+
+#barra.active {
+  bottom: 3.7rem;
+}
+
+.selector .project {
+  margin-bottom: 200px;
+}
+
+#barra button {
+  border: none;
+  background-color: transparent;
+  color: whitesmoke;
+}
+
+.linked {
+  width: 30px;
+}
+
+.githu {
+  width: 30px;
+}
+
+dialog {
+  width: 85%;
+  height: 60%;
+}
+
+.proj {
+  display: grid;
+  grid-column: auto;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 100px;
+}
+
+.moneda {
+  width: 70%;
+}
+
+.portfo {
+  width: 70%;
+}
+
+.code {
+  width: 50%;
+}/*# sourceMappingURL=style.css.map */
