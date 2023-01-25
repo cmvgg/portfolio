@@ -2,7 +2,15 @@
     margin: 0;
     padding: 0;
 }
+.fondo{
+    position: absolute;
+    z-index: 1;
+    position: center 25%; 
+    width: 100%; 
+}
 .carpetas{
+    position: relative;
+    z-index: 2;
     display: flex;
     flex-wrap: wrap;
 }
@@ -50,6 +58,7 @@
     left: 2px;
     background-color: gray;
     bottom: -24rem;
+    z-index: 2;
 }
 #barra ul li{
     text-align: center;
